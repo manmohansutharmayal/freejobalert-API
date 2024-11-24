@@ -1,5 +1,5 @@
 
-# JobScraperAPI
+# Freejobalert
 
 A lightweight and efficient PHP-based API to scrape and deliver real-time job data from websites. This project is designed to extract job information, such as post dates, recruitment boards, qualifications, and links to detailed job descriptions, in a simple JSON format.
 
@@ -47,7 +47,7 @@ Live API Endpoint:
 - Clone the repository
 
 ```bash
- git clone https://github.com/yourusername/JobScraperAPI.git 
+ git clone [https://github.com/yourusername/JobScraperAPI.git ](https://github.com/manmohansutharmayal/freejobalert-API)
 ```
 - Upload the project to your PHP server (e.g., XAMPP, WAMP, or a live web server).
 - Access the script through your browser or API client
