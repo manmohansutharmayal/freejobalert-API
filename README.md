@@ -47,20 +47,20 @@ Live API Endpoint:
 - Clone the repository
 
 ```bash
- git clone [https://github.com/yourusername/JobScraperAPI.git ](https://github.com/manmohansutharmayal/freejobalert-API)
+ git clone https://github.com/manmohansutharmayal/freejobalert-API
 ```
 - Upload the project to your PHP server (e.g., XAMPP, WAMP, or a live web server).
 - Access the script through your browser or API client
 
 ```bash
-http://localhost/JobScraperAPI/jobs_api.php
+http://localhost/freejobalert-API/run.php
 ```
 ## Usage
 
 - Fetch All Jobs: Send a GET request to the API endpoint. Example:
 
 ```bash
-GET http://localhost/JobScraperAPI/jobs_api.php
+GET http://localhost/freejobalert-API/run.php
 ```
 
 - Integrate in Your App:
@@ -69,7 +69,7 @@ GET http://localhost/JobScraperAPI/jobs_api.php
 --------> Use fetch in JavaScript
 
 ```bash
-fetch('http://localhost/JobScraperAPI/jobs_api.php')
+fetch('http://localhost/freejobalert-API/run.php')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
@@ -78,7 +78,7 @@ fetch('http://localhost/JobScraperAPI/jobs_api.php')
 --------> Or use Python’s requests library
 ```bash
 import requests
-response = requests.get('http://localhost/JobScraperAPI/jobs_api.php')
+response = requests.get('http://localhost/freejobalert-API/run.php')
 print(response.json())
 ```
 
